@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>了不起的盖茨比</title>
+		<!--设置span元素，为span设置文本颜色为蓝色-->
+		<style type="text/css">
+			span
+			{
+/*span. <span>标签是没有语义的，它的作用就是为了设置单独的样式用的。
+如果现在我们想把上一小节的第一段话“美国梦”三个字设置成blue（蓝色），但注意不是为了强调“美国梦”，而只是想为它设置和其它文字不同的样式（并不想让屏幕阅读器对“美国梦”这三个字加重音读出），所以这样情况下就可以用到<span>标签了*/
+				color:blue;
+			}
+		/*设置blockquote元素，为blockquote设置长文颜色为红色*/
+			blockquote
+			{
+				color: red;
+			}
+			/*设置段落缩进和段落背景*/
+			p
+			{
+				text-indent: 5em;
+				background: pink;
+			}
+		</style>
+		
+		
+	</head>
+	<body>
+		<h1>了不起的盖茨比</h1>
+		<p>1922年的春天，一个想要成名名叫<em>尼克•卡拉威</em>（托比•马奎尔Tobey Maguire 饰）的作家，离开了美国中西部，来到了纽约。那是一个道德感渐失，爵士乐流行，走私为王，<q>庄生晓梦迷蝴蝶，望帝春心托杜鹃。</q> Written by<a href="https://mail.qq.com/cgi-bin/frame_html?sid=8cq6-VcTcfyMWmI7&r=2c150ee8ea46c72a04b8d69b47cb7a64">杜甫</a><br>。为了追寻他的<span>美国梦</span>，他搬入纽约附近一海湾居住。</p>
+<!--<em></em>斜体 <strong></strong>加强   <span></span>来组合行内格式以便通过样式来格式化他们  在页面效果上，使用div是自动换行，使用span是保持同行-->   
+<!--<code></code>为电脑自动输出   <sub></sub>为向下  <sup></sup> 为向上-->
+<!--q标签的语义是引用别人的话-->
+    <p><code>菲茨杰拉德</code>，二十世纪美国文学巨擘之一，兼具<sub>作家</sub>和<sup>编剧</sup>双重身份。他以诗人的敏感和戏剧家的想象为<strong>"爵士乐时代"</strong>吟唱华丽挽歌，其诗人和梦想家的气质亦为那个奢靡年代的不二注解。</p>
+	<!--地址-->
+	<address>
+Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+<!--缩写-->
+<abbr title="etcetera">etc.</abbr>
+<br />
+<abbr title="iloveyou">ilv.</abbr>
+<br />
+<!--首字母缩写-->
+<acronym title="World Wide Web">WWW</acronym>
+<br />
+<!--文字方向bdo dir="rtl表示文字从右到左显示"-->
+<p>该段落文字从左到右显示。</p>
+<br />
+<p><bdo dir="rtl">该段落文字从右到左显示。</bdo></p>
+<br />
+<!--del删除文本效果  ins插入文本效果-->
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+<p><h2>心似桂花开</h2>
+<p>大家都在忙于自认为最重要的事情，却没能享受到人生的乐趣，反而要吞下苦果？<blockquote>暗淡轻黄体性柔，<br>情疏迹远只香留。<br>何须浅碧深红色，<br>自是花中第一流。<br></blockquote>
+这是李清照《咏桂》中的词句，在李清照&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;看来，桂花&nbsp;暗淡青黄，性情温柔，淡泊自适，远比那些大红大紫争奇斗艳花值得称道。</p>
+<!--&nbsp为输入空格-->
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title> 
+</head>
+<body>
+
+<a href="http://www.runoob.com/" target="_blank">访问菜鸟教程!</a>
+
+<p>如果你将 target 属性设置为 &quot;_blank&quot;, 链接将在新窗口打开。</p>
+<!--&quto;为双飘号-->
+
+</body>
+</html>

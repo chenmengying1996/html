@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8"/>
+	<title>菜鸟教程(runoob.com)</title>
+	
+	</head>
+	<body>
+		<p><a href="http://www.runoob.com">这是一个链接使用了href属性</a></p>
+		<!--把“这是一个链接使用了href属性这句话链到了'http://www.runoob.com'这个网页	</body>-->
+		<p><a href="http://www.baidu.com">访问百度</a></p>
+		<!--在HTML文档中插入ID:-->
+		<p><a id="tips">有用的提示部分</a></p>
+		<!--在HTML文档中创建一个链接到"有用的提示部分(id="tips"）"：-->
+		<p><a href="#tips">访问有用的提示部分</a></p>
+		<!--或者，从另一个页面创建一个链接到"有用的提示部分(id="tips"）"：-->
+		<a href="http://www.runoob.com/html/html-links.html#tips">
+访问有用的提示部分</a>
+<!--http://www.runoob.com/html/html-links.html这个网址是菜鸟教程html链接网页的网址-->
+	
+	
+                                <!--图片链接-->
+	
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8" />
+			
+     </head>
+<body>
+	<p>创建图片链接</p>
+	<a href="http://www.baidu.com">
+	<img src="img/baidu.png" alt="html教程" width="100" height="100"/></a>
+	<p>创建无边框的图片链接</p>
+	<a href="http://www.baidu.com">
+		<img src="img/baidu.png" width="100" height="100" />
+	</a>
+	
+</body>
+	</html>
+</body>
+</html>
+
+
+
+                            <!--在当前页面链接到指定位置-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<style>
+			span
+			{
+				color: red;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<p>
+		<a href="#C4">查看章节4</a><br />
+		<a href="#C8">查看章节8</a>		
+		</p>
+		<h2><span>章节1</span></h2>
+		<p>这边显示章节内容....</p>
+		<h2><span>章节2</span></h2>
+		<p>这边显示章节内容....</p>
+		<h2><span>章节3</span></h2>
+		<p>这边显示章节内容....</p>
+		<h2><span><a id="#C4">章节4</span></h2></a>
+		<p>这边显示章节内容....</p>
+		<h2><span>章节5</span></h2>
+		<p>这边显示章节内容....</p>
+		<h2><span>章节6</span></h2>
+		<p>这边显示章节内容....</p>
+		<h2><span>章节7</span></h2>
+		<p>这边显示章节内容....</p>
+		<h2><span><a id="#C8">章节8</span></h2></a>
+		<p>这边显示章节内容....</p>
+		<h2><span>章节9</span></h2>
+		<p>这边显示章节内容....</p>
+		<h2><span>章节10</span></h2>
+		<p>这边显示章节内容....</p>
+		<h2><span>章节11</span></h2>
+		<p>这边显示章节内容....</p>
+		
+	</body>
+</html>
+
+
+       <!--跳出框架返回链接-->    
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		
+		
+	</head>
+	<body>
+		<p>跳出框架</p>
+		<a href="http://www.baidu.com" target="_top"><span>返回</span></a>
+	</body>
+</html>
+
+
+                         <!--创建电子邮件链接--->
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+
+</head>
+<body>
+
+<p>
+这是一个电子邮件链接：
+<a href="https://mail.qq.com/cgi-bin/frame_html?sid=QXp-b8W6ePWFBDxl&r=483ea011c30085910b8b80b85d0c8df3" target="_top">
+发送邮件</a>
+</p>
+
+<p>
+<b>注意:</b> 单词之间空格使用 %20 代替，以确保浏览器可以正常显示文本。
+</p>
+
+</body>
+</html>                     
+              
+
+
+
+
+<!--没有下划线的链接-->
+!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title> 
+</head>
+<body>
+​
+<a href="http://www.runoob.com/" style="text-decoration:none;">访问 runoob.com!</a>
+​
+</body>
+</html>
+
+
+              <!--链接到外部样式表-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title> 
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+<h1>我使用了外部样式文件来格式化文本 </h1>
+<p>我也是!</p>
+</body>
+
+</html>
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>了不起的盖茨比</title>
+</head>
+<body>
+	<ul>
+       <li><a href="#" title="前端开发面试心法">前端开发面试心法</a> </li>
+       <li><a href="#" title="零基础学习html">零基础学习html</a></li>
+       <li><a href="#" title="JavaScript全攻略">JavaScript全攻略</a></li>
+    </ul>
+    <!--把鼠标放在前端开发面试心法上会出现文字  target="_blank的作用是打开一个新的网页"-->
+    <p>1922年的春天，一个想要成名名叫尼克•卡拉威（<a href="http://www.m1905.com/mdb/star/3316/"  target="_blank">托比•马奎尔Tobey Maguire </a>饰）的作家，离开了美国中西部，来到了纽约。那是一个道德感渐失，爵士乐流行，走私为王，股票飞涨的时代。为了追寻他的美国梦，他搬入纽约附近一海湾居住。</p>
+    <p>菲茨杰拉德，二十世纪美国文学巨擘之一，兼具作家和编剧双重身份。他以诗人的敏感和戏剧家的想象为"爵士乐时代"吟唱华丽挽歌，其诗人和梦想家的气质亦为那个奢靡年代的不二注解。</p>
+</body>
+</html>
